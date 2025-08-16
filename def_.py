@@ -1,3 +1,5 @@
+#the keyword def introduces a function definition. 
+# It must be followed by the function name and the parenthesized list of formal parameters.
 def fib(n):    # write Fibonacci series less than n
     """Print a Fibonacci series less than n."""
     a, b = 0, 1
