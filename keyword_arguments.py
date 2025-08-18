@@ -1,9 +1,12 @@
+# create a function, it have a mandatory argument [voltage] and 3 optional arguments
+# [state], [action], and [type] with default values.
 def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
     print("-- This parrot wouldn't", action, end=' ')
     print("if you put", voltage, "volts through it.")
     print("-- Lovely plumage, the", type)
     print("-- It's", state, "!")
 
+# call the function with different combinations of positional and keyword arguments
 parrot(1000)                                          # 1 positional argument
 parrot(voltage=1000)                                  # 1 keyword argument
 parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments
