@@ -1,7 +1,14 @@
 #FIRST USE CASE
 
 # This code demonstrates a double for loop with a condition to filter pairs
-[(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
+#create a list using a list comprehension
+#general sintaxis is 
+#[ expression for variable1 in iterable1 for variable2 in iterable2 if condition ]
+response=[(x, y) #generate a tuple (x,y)
+          for x in [1,2,3] #first loop x takes each value in [1,2,3]
+          for y in [3,1,4] #second loop y takes each value in [3,1,4]
+          if x != y] #condition to filter pairs where x is not equal to y
+                     #only saves pairs where x and y are different
 
 #output
 #[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
