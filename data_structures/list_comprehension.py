@@ -24,5 +24,11 @@ squares2 = list(
     )
 )
 
-
 print(squares2)  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+
+#THIRD CASE OF STUDY
+#using list comprehension we can create the same list in a single line
+#in this case we only use a for loop inside the list comprehension
+squares3 = [x**2 for x in range(10)]
+print(squares3)  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
