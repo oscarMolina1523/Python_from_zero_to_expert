@@ -15,7 +15,8 @@ print(squares)
 
 #SECOND CASE OF STUDY
 #using list comprehension we can create the same list in a single line
-#first we create the list using the [list] keyword
+#first we create the list using the [list] keyword 
+# to save the result of the comprehension
 squares2 = list(
     map( #using the map function to applies a function to each element of an iterable
         lambda x: x**2, #Lambda is an anonymous function: it receives a value (x) and returns x squared
