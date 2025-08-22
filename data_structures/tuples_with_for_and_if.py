@@ -13,3 +13,6 @@ print(positives) #output: [0, 2, 4]
 #abs is a function to count the spaces between the number and 0
 absolute=[abs(x) for x in vec]
 print(absolute) #output: [4, 2, 0, 2, 4]
+
+#create a list of fruits with spaces at the beginning and end
+freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
