@@ -16,3 +16,8 @@ print(absolute) #output: [4, 2, 0, 2, 4]
 
 #create a list of fruits with spaces at the beginning and end
 freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
+
+#strip() function removes spaces at the beginning and end of each string
+#only start or end , not in the middle
+fruits_without_spaces=[fruit.strip() for fruit in freshfruit]
+print(fruits_without_spaces) #output: ['banana', 'loganberry', 'passion fruit']
