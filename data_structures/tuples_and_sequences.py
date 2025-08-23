@@ -18,3 +18,10 @@ print(u) #output: ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
 #but they can contain mutable objects, like lists
 v = ([1, 2, 3], [3, 2, 1]) #tuple using parentheses
 print(v) #output: ([1, 2, 3], [3, 2, 1])
+
+#you can create tuples empty or with one item
+#in case of one item, you need to add a comma after the item
+empty = () #empty tuple
+singleton = 'hello', #tuple with one item, note the comma
+print(len(empty)) #output: 0
+print(len(singleton)) #output: 1
