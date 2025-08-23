@@ -21,3 +21,7 @@ freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
 #only start or end , not in the middle
 fruits_without_spaces=[fruit.strip() for fruit in freshfruit]
 print(fruits_without_spaces) #output: ['banana', 'loganberry', 'passion fruit']
+
+#double tuple with for loop and range function
+doble_tuple=[(x, x**2) for x in range(6)]
+print(doble_tuple) #output: [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
