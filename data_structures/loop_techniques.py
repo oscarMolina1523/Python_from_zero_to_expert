@@ -11,3 +11,13 @@ for k, v in knights.items():
 #output:
 # gallahad the pure
 # robin the brave
+
+#ENUMERATE FUNCTION
+#enumerate() function adds a counter to an iterable and returns it as an enumerate object
+#in the first iteration, i = 0, v = 'tic'
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
+#output:
+# 0 tic
+# 1 tac
+# 2 toe
