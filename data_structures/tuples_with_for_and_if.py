@@ -41,4 +41,11 @@ vec = [[1,2,3], [4,5,6], [7,8,9]]
 #using list comprehension combine all the elements of the inner lists into a single list
 array_one=[num for elem in vec for num in elem]
 
+#to understand this, this is the same as:
+# resultado = []
+# for elem in vec:         # elem is each sublist
+#     for num in elem:     # num is each number in the sublist
+#         resultado.append(num)
+
+
 print(array_one) #output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
