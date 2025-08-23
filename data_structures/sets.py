@@ -12,3 +12,10 @@ print('orange' in basket) #True
 
 #check if an item is not in the set
 print('crabgrass' in basket) #False
+
+#demonstrate set operations
+#set() function read the word and don't include duplicates letters
+a = set('abracadabra')
+b = set('alacazam')
+print(a) #output: {'a', 'b', 'r', 'c', 'd'}
+print(b) #output: {'a', 'm', 'l', 'c', 'z'}
