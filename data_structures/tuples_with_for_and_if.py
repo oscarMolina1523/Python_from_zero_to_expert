@@ -29,8 +29,16 @@ print(doble_tuple) #output: [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 #sintax error, be careful with the indentation
 #you cannot do this
 #you need to put the parentheses like the line over this one [(x, x**2)]
-error=[x, x**2 for x in range(6)]
+# error=[x, x**2 for x in range(6)]
 #print(error) #output:  File "<stdin>", line 1
 #     [x, x**2 for x in range(6)]
 #      ^^^^^^^
 # SyntaxError: did you forget parentheses around the comprehension target?
+
+#this is a list of lists
+vec = [[1,2,3], [4,5,6], [7,8,9]]
+
+#using list comprehension combine all the elements of the inner lists into a single list
+array_one=[num for elem in vec for num in elem]
+
+print(array_one) #output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
