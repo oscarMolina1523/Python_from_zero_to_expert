@@ -17,5 +17,18 @@ print('crabgrass' in basket) #False
 #set() function read the word and don't include duplicates letters
 a = set('abracadabra')
 b = set('alacazam')
-print(a) #output: {'a', 'b', 'r', 'c', 'd'}
-print(b) #output: {'a', 'm', 'l', 'c', 'z'}
+print(a) #output: {'a', 'b', 'r', 'c', 'd'} #unique letters in a
+print(b) #output: {'a', 'm', 'l', 'c', 'z'} #unique letters in b
+
+#you can do mathematical operations on sets like union, intersection, difference, and symmetric difference
+print(a - b) #letters in [a] but not in [b] (difference) 
+#output: {'r', 'd', 'b'}
+
+print(a | b) #letters in [a] or [b] or both (union) 
+#output: {'a', 'b', 'r', 'c', 'd', 'm', 'l', 'z'}
+
+print(a & b) #letters in both [a] and [b] (intersection) 
+#output: {'a', 'c'}
+
+print(a ^ b) #letters in [a] or [b] but not both (symmetric difference) 
+#output: {'r', 'd', 'b', 'm', 'l', 'z'}
