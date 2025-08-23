@@ -14,3 +14,7 @@ print(u) #output: ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
 #Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
 # TypeError: 'tuple' object does not support item assignment
+
+#but they can contain mutable objects, like lists
+v = ([1, 2, 3], [3, 2, 1]) #tuple using parentheses
+print(v) #output: ([1, 2, 3], [3, 2, 1])
