@@ -25,3 +25,12 @@ print(fruits_without_spaces) #output: ['banana', 'loganberry', 'passion fruit']
 #double tuple with for loop and range function
 doble_tuple=[(x, x**2) for x in range(6)]
 print(doble_tuple) #output: [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+
+#sintax error, be careful with the indentation
+#you cannot do this
+#you need to put the parentheses like the line over this one [(x, x**2)]
+error=[x, x**2 for x in range(6)]
+#print(error) #output:  File "<stdin>", line 1
+#     [x, x**2 for x in range(6)]
+#      ^^^^^^^
+# SyntaxError: did you forget parentheses around the comprehension target?
