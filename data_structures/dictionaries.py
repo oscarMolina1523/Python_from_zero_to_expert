@@ -22,3 +22,7 @@ print(list(tel.items()))  # [('jack', 4098), ('guido', 4139)]
 
 #you can sort the keys of a dictionary
 print(sorted(tel)) #output: ['guido', 'jack']
+
+#validate if a key is in a dictionary
+print('guido' in tel) #output: True 
+print('jack' not in tel) #output: False because jack is in tel
