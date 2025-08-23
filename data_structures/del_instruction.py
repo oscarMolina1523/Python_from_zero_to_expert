@@ -6,3 +6,6 @@ print(a) #output: [1, 66.25, 333, 333, 1234.5]
 
 del a[2:4] #removes the elements in positions 2 and 3
 print(a) #output: [1, 66.25, 1234.5]
+
+del a[:] #removes all elements in the list
+print(a) #output: []
