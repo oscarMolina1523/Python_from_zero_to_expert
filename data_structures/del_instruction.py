@@ -9,3 +9,7 @@ print(a) #output: [1, 66.25, 1234.5]
 
 del a[:] #removes all elements in the list
 print(a) #output: []
+
+del a #deletes the list completely
+#print(a) #this will raise an error because the list no longer exists
+#but you can add a new value to a
