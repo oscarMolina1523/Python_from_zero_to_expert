@@ -19,3 +19,6 @@ print(list(tel)) #output: ['jack', 'guido']
 print(list(tel.keys()))   # ['jack', 'guido']
 print(list(tel.values())) # [4098, 4139]
 print(list(tel.items()))  # [('jack', 4098), ('guido', 4139)]
+
+#you can sort the keys of a dictionary
+print(sorted(tel)) #output: ['guido', 'jack']
