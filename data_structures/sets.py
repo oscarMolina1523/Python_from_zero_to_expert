@@ -6,3 +6,9 @@
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
 print(basket) #duplicates are removed
 #output: {'orange', 'banana', 'pear', 'apple'}
+
+#check if an item is in the set
+print('orange' in basket) #True
+
+#check if an item is not in the set
+print('crabgrass' in basket) #False
