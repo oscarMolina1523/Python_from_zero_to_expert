@@ -14,3 +14,14 @@ for i in sorted(basket):
 # orange
 # orange
 # pear
+
+#to sort a list without duplicates use set() function
+#the set() function removes duplicates
+for i in sorted(set(basket)):
+    print(i)    
+
+#output:
+# apple
+# banana
+# orange
+# pear
