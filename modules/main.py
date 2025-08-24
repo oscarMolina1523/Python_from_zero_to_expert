@@ -1,4 +1,6 @@
 import fibo
+#other form to import specific functions
+#from fibo import fib, fib2
 
 print(fibo.fib(1000))
 print(fibo.fib2(1000))
