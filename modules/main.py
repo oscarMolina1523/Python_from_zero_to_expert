@@ -9,6 +9,9 @@ import fibo
 #import fibo as fib
 #fib.fib(500)
 
+#you can combine both
+#from fibo import fib as fibonacci, fib2 as fibonacci2
+
 
 print(fibo.fib(1000))
 print(fibo.fib2(1000))
