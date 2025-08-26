@@ -22,3 +22,6 @@ print(fibo.__name__)  # prints 'fibo'
 #if you want to use a function with frequency, you can assign it to a local name
 fib = fibo.fib
 fib(500)
+
+print(dir(fibo))  # list all the functions defined in the module fibo
+#output: ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'fib', 'fib2']
