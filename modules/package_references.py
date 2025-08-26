@@ -16,3 +16,8 @@ from . import echo
 #import formats from "../formats.js";
 from .. import formats
 
+#this import navigates two levels up and then goes to filters folder
+#similar in javascript like this
+#import equalizer from "../filters/equalizer.js";
+from ..filters import equalizer
+
