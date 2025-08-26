@@ -11,3 +11,8 @@
 #import echo from "./echo.js";
 from . import echo
 
+#this import navigates two levels up
+#similar in javascript like this
+#import formats from "../formats.js";
+from .. import formats
+
