@@ -23,3 +23,4 @@ percentage = yes_votes / total_votes #the values is 0.4967
 #like multiplying by 100 and adding the % symbol
 #the output is ['49.67%'] with the % symbol at the end
 print('{:-9} YES votes  {:2.2%}'.format(yes_votes, percentage))
+#the output is ['42572654  YES votes  49.67%']
