@@ -1,4 +1,4 @@
-🐍 Python from Zero to Expert
+<h1 align="left">🐍 Python from Zero to Expert</h1>
 
 Bienvenido a Python from Zero to Expert, un repositorio diseñado para aprender Python paso a paso, desde lo más básico hasta un nivel avanzado.
 
