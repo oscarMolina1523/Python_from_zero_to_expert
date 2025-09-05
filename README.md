@@ -22,23 +22,13 @@ Definición y uso de funciones, Argumentos y valores de retorno, Módulos y libr
 
 Manejo de archivos (open, read, write), Object-Oriented Programming (OOP), Clases y objetos, Herencia y polimorfismo, Encapsulación y abstracción
 
-Advanced Topics
+<h3>Advanced Topics</h3>
 
-Decoradores
+Decoradores, Generadores e iteradores, Manejo de excepciones, Programación funcional, Expert Level
 
-Generadores e iteradores
+<h3>Buenas prácticas y patrones de diseño</h3>
 
-Manejo de excepciones
-
-Programación funcional
-
-Expert Level
-
-Buenas prácticas y patrones de diseño
-
-Uso de librerías avanzadas
-
-Introducción a entornos virtuales y proyectos reales
+Uso de librerías avanzadas, Introducción a entornos virtuales y proyectos reales
 
 <h2>🚀 Objetivo</h2>
 
