@@ -6,7 +6,7 @@ Este repositorio está organizado en etapas de aprendizaje, con ejemplos prácti
 
 <h2>📌 Contenido del Repositorio</h2>
 
-🔹 Cada carpeta representa una etapa clave en el aprendizaje:
+<h3>🔹 Cada carpeta representa una etapa clave en el aprendizaje:</h3>
 
 Introduction
 
