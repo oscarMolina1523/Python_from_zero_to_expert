@@ -87,19 +87,19 @@ Machine Learning
 O simplemente para mejorar sus habilidades de programación.
 
 🛠️ Cómo Usar el Repositorio
-
-Clona este repositorio:
+```bash
+#Clona este repositorio:
 
 git clone https://github.com/oscarMolina1523/Python_from_zero_to_expert.git
 
 
-Explora las carpetas en orden progresivo.
+#Explora las carpetas en orden progresivo.
 
-Ejecuta los ejemplos en tu entorno local:
+#Ejecuta los ejemplos en tu entorno local:
 
 python archivo.py
 
-
+```
 Modifica los ejemplos para experimentar y aprender mejor.
 
 👨‍💻 Autor
