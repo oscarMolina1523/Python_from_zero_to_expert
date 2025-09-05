@@ -4,7 +4,7 @@ Bienvenido a Python from Zero to Expert, un repositorio diseñado para aprender 
 
 Este repositorio está organizado en etapas de aprendizaje, con ejemplos prácticos y explicaciones claras para ayudarte a dominar Python de manera progresiva.
 
-📌 Contenido del Repositorio
+<h2>📌 Contenido del Repositorio</h2>
 
 🔹 Cada carpeta representa una etapa clave en el aprendizaje:
 
@@ -72,7 +72,7 @@ Uso de librerías avanzadas
 
 Introducción a entornos virtuales y proyectos reales
 
-🚀 Objetivo
+<h2>🚀 Objetivo</h2>
 
 Este proyecto busca ser una guía práctica y clara para cualquier persona que desee aprender Python, ya sea para:
 
