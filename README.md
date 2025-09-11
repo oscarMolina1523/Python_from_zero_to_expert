@@ -10,23 +10,23 @@ Este repositorio está organizado en etapas de aprendizaje, con ejemplos prácti
 
 <p>Introduction, primeros pasos en Python, sintaxis básica, variables y tipos de datos.</p>
 
-<h3>Control Flow</h3>
+<h3>👉Control Flow</h3>
 
 Condicionales (if, else, elif), Bucles (for, while), Control de flujo (break, continue, pass), Data Structures, Listas, Tuplas, Diccionarios y Sets, Comprensiones de listas, Manipulación de estructuras de datos
 
-<h3>Functions & Modules</h3>
+<h3>👉Functions & Modules</h3>
 
 Definición y uso de funciones, Argumentos y valores de retorno, Módulos y librerías estándar, Inputs & Outputs
 
-<h3>Entrada y salida de datos</h3>
+<h3>👉Entrada y salida de datos</h3>
 
 Manejo de archivos (open, read, write), Object-Oriented Programming (OOP), Clases y objetos, Herencia y polimorfismo, Encapsulación y abstracción
 
-<h3>Advanced Topics</h3>
+<h3>👉Advanced Topics</h3>
 
 Decoradores, Generadores e iteradores, Manejo de excepciones, Programación funcional, Expert Level
 
-<h3>Buenas prácticas y patrones de diseño</h3>
+<h3>👉Buenas prácticas y patrones de diseño</h3>
 
 Uso de librerías avanzadas, Introducción a entornos virtuales y proyectos reales
 
