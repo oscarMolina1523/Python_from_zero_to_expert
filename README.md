@@ -34,13 +34,13 @@ Uso de librerías avanzadas, Introducción a entornos virtuales y proyectos real
 
 Este proyecto busca ser una guía práctica y clara para cualquier persona que desee aprender Python, ya sea para:
 
-Desarrollo web
+👉Desarrollo web
 
-Ciencia de datos
+👉Ciencia de datos
 
-Automatización
+👉Automatización
 
-Machine Learning
+👉Machine Learning
 
 O simplemente para mejorar sus habilidades de programación.
 
